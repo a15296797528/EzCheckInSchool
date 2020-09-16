@@ -28,7 +28,7 @@ def main():
         major_name = info[1]
         class_name = info[2]
     except IndexError:
-        print_info_error()
+        print_info_error()   
         exit(1)
 
     # 获取deptId
@@ -66,7 +66,7 @@ def main():
 
     # 随机温度(36.2~36.5)
     a = random.uniform(36.2, 36.5)
-    temperature = round(a, 1)
+    temperature = round(a, 1)  
 
     check_url = "https://reportedh5.17wanxiao.com/sass/api/epmpics"
 
